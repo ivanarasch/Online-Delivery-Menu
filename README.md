@@ -1,20 +1,6 @@
 # Online Delivery
 
-Now that you have fixed a set of errors in a provided file, it is time to try and create your own Java class (right click src in the project view pane and select New > Java Class). In the src directory (which you might have to create), create a new file called `Delivery.java`. Inside the file, create a class declaration and a main method.
 
-Inside your class, your main method is going to call one other method, named `order`. Since we have not covered methods in depth, the description will be provided here:
-
-```java
-public static void main(String[] args){
-    order(System.in);
-}
-
-public static double order(InputStream in){
-    Scanner keyboard = new Scanner(in);
-    
-    //Write all of your code here
-}
-```
 
 The purpose of the `order` method is relatively straightforward: it computes the amount owed on a restaurant order. When run, your program should:
 1. Print a statement greeting the user in a friendly way with the name of one of your favorite restaurants to order from.
